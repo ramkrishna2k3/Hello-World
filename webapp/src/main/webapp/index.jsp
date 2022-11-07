@@ -1,6 +1,6 @@
 <main>
   <div class="intro">
-    <h1>I am a Devops Engineer r</h1>
+    <h1>I am a Devops Engineer </h1>
     <p>I am a Devops Engineer and I love to work on Technologies.</p>
     <button>Learn More</button>
   </div>
@@ -26,6 +26,6 @@
       <h2>About Me</h2>
       <p>I am a devops engineer and I love to create Automation on Jenkins, Docker, Kubernetes. I am a very good devops engineer and I am always looking for new projects. I am a very good developer and I am always looking for new projects.</p>
     </div>
-    <img src="https://mobcup.net/wallpaper/cartoon-wallpaper-hbwbugxd" alt="me">
+    <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" alt="me">
   </div>
 </main> 
