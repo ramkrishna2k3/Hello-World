@@ -1,181 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+<!DOCTYPE html>
 
-body {
-  margin: 0;
-  box-sizing: border-box;
-}
-/* CSS for header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #f5f5f5;
-}
+<html>
 
-.header .logo {
-  font-size: 25px;
-  font-family: 'Sriracha', cursive;
-  color: #000;
-  text-decoration: none;
-  margin-left: 30px;
-}
+<head>
+	<title>
+		Simple web Development Template
+	</title>
+</head>
 
-.nav-items {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #f5f5f5;
-  margin-right: 20px;
-}
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<li><a href="#web">Web Technology</a></li>
+			<li><a href="#program">C Programming</a></li>
+			<li><a href="#course">Courses</a></li>
+		</ul>
 
-.nav-items a {
-  text-decoration: none;
-  color: #000;
-  padding: 35px 20px;
-}
-/* CSS for main section */
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 520px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
 
-.intro h1 {
-  font-family: sans-serif;
-  font-size: 60px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin: 0;
-}
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">
+					Web Technology
+				</h1>
+				
+				<p class="text-small">
+					HTML stands for HyperText Markup
+					Language. It is used to design
+					web pages using a markup language.
+					HTML is the combination of Hypertext
+					and Markup language. Hypertext
+					defines the link between the web
+					pages. A markup language is used
+					to define the text document within
+					tag which defines the structure of
+					web pages. HTML is a markup language
+					that is used by the browser to
+					manipulate text, images, and other
+					content to display it in the required
+					format.
+				</p>
 
-.intro p {
-  font-size: 20px;
-  color: #d1d1d1;
-  text-transform: uppercase;
-  margin: 20px 0;
-}
 
-.intro button {
-  background-color: #5edaf0;
-  color: #000;
-  padding: 10px 25px;
-  border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
-}
+			</div>
+		</div>
+	</section>
 
-.achievements {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px 80px;
-}
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="secondHalf">
+				<h1 class="text-big" id="program">
+					C Programming
+				</h1>
+				<p class="text-small">
+					C is a procedural programming language.
+					It was initially developed by Dennis
+					Ritchie as a system programming
+					language to write operating system.
+					The main features of C language include
+					low-level access to memory, simple set
+					of keywords, and clean style, these
+					features make C language suitable for
+					system programming like operating system
+					or compiler development.
+				</p>
 
-.achievements .work {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 40px;
-}
 
-.achievements .work i {
-  width: fit-content;
-  font-size: 50px;
-  color: #333333;
-  border-radius: 50%;
-  border: 2px solid #333333;
-  padding: 12px;
-}
+			</div>
+		</div>
+	</section>
 
-.achievements .work .work-heading {
-  font-size: 20px;
-  color: #333333;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
+	<section class="section">
+		<div class="paras">
+			<h1 class="sectionTag text-big">Java</h1>
 
-.achievements .work .work-text {
-  font-size: 15px;
-  color: #585858;
-  margin: 10px 0;
-}
+			<p class="sectionSubTag text-small">
+				Java has been one of the most
+				popular programming language
+				for many years. Java is Object
+				Oriented. However it is not
+				considered as pure object oriented
+				as it provides support for primitive
+				data types (like int, char, etc) The
+				Java codes are first compiled into byte
+				code (machine independent code). Then
+				the byte code is run on Java Virtual
+				Machine (JVM) regardless of the
+				underlying architecture.
+			</p>
 
-.about-me {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 80px;
-  border-top: 2px solid #eeeeee;
-}
 
-.about-me img {
-  width: 500px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
+		</div>
 
-.about-me-text h2 {
-  font-size: 30px;
-  color: #333333;
-  text-transform: uppercase;
-  margin: 0;
-}
+		<div class="thumbnail">
+			<img src="img.png" alt="laptop image">
+		</div>
+	</section>
 
-.about-me-text p {
-  font-size: 15px;
-  color: #585858;
-  margin: 10px 0;
-}
-/* CSS for footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #302f49;
-  padding: 40px 80px;
-}
+	<footer class="background">
+		<p class="text-footer">
+			Copyright ©-All rights are reserved
+		</p>
 
-.footer .copy {
-  color: #fff;
-}
 
-.bottom-links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px 0;
-}
+	</footer>
+</body>
 
-.bottom-links .links {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 40px;
-}
+</html>
 
-.bottom-links .links span {
-  font-size: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  margin: 10px 0;
-}
-
-.bottom-links .links a {
-  text-decoration: none;
-  color: #a1a1a1;
-  padding: 10px 20px;
-}
