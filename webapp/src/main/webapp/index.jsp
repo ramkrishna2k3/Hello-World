@@ -1,6 +1,6 @@
 <div class="container">
   <h1>HTML registration form with varification</h1>
-  <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+  <form name="New user registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
       <tr>
         <td><label for="name">Name:</label></td>
