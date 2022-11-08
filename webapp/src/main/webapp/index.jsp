@@ -30,10 +30,10 @@
           <select name="language" id="language">
             <option value="">Select language</option>
             <option value="English">English</option>
-            <option value="Spanish">Marathi</option>
+            <option value="Marathi">Marathi</option>
             <option value="Hindi">Hindi</option>
-            <option value="Arabic">Telugu</option>
-            <option value="Russian">kanada</option>
+            <option value="Telugu">Telugu</option>
+            <option value="Kanada">kanada</option>
           </select>
         </td>
       </tr>
