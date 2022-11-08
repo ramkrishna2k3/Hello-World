@@ -33,7 +33,7 @@
             <option value="Marathi">Marathi</option>
             <option value="Hindi">Hindi</option>
             <option value="Telugu">Telugu</option>
-            <option value="Kanada">kanada</option>
+            <option value="Gujarati">Gujarati</option>
           </select>
         </td>
       </tr>
