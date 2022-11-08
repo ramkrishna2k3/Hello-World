@@ -1,17 +1,17 @@
 <div class="container">
   <h1>HTML registration form with varification</h1>
-  <form name="New user registration" class="registartion-form" onsubmit="return formValidation()">
+  <form name="New user Registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
       <tr>
-        <td><label for="name">Name:</label></td>
+        <td><label for="name">Enter Name:</label></td>
         <td><input type="text" name="name" id="name" placeholder="your name"></td>
       </tr>
       <tr>
-        <td><label for="email">Email:</label></td>
+        <td><label for="email">Enter Email:</label></td>
         <td><input type="text" name="email" id="email" placeholder="your email"></td>
       </tr>
       <tr>
-        <td><label for="enter password">Password:</label></td>
+        <td><label for="enter password">Enter Password:</label></td>
         <td><input type="password" name="password" id="password"></td>
       </tr>
       <tr>
