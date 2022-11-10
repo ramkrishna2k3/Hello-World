@@ -34,6 +34,7 @@
             <option value="Hindi">Hindi</option>
             <option value="Telugu">Telugu</option>
             <option value="Gujarati">Gujarati</option>
+	    <option value="Bengali">Bengali</option>
           </select>
         </td>
       </tr>
