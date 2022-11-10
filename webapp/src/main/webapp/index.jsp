@@ -7,7 +7,7 @@
         <td><input type="text" name="name" id="name" placeholder="your name"></td>
       </tr>
       <tr>
-        <td><label for="email">Enter Email:</label></td>
+        <td><label for="email">Enter Email address:</label></td>
         <td><input type="text" name="email" id="email" placeholder="your email"></td>
       </tr>
       <tr>
