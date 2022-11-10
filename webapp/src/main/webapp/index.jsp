@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>HTML registration form with verification</h1>
+  <h1> Registration for verification</h1>
   <form name="New user Registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
       <tr>
