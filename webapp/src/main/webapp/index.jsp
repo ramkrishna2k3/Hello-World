@@ -3,19 +3,19 @@
   <form name="New user Registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
       <tr>
-        <td><label for="name">Ramakrishna Rachure:</label></td>
+        <td><label for="name">ENTER NAME:</label></td>
         <td><input type="text" name="name" id="name" placeholder="your name"></td>
       </tr>
       <tr>
-        <td><label for="email">ramkrishna2k3@gmail.com:</label></td>
+        <td><label for="email">EMAIL ADDRESS:</label></td>
         <td><input type="text" name="email" id="email" placeholder="your email"></td>
       </tr>
       <tr>
-        <td><label for="enter password">abc:</label></td>
+        <td><label for="enter password">ENTER PASSWORD:</label></td>
         <td><input type="password" name="password" id="password"></td>
       </tr>
       <tr>
-        <td><label for="phoneNumber">9658745241:</label></td>
+        <td><label for="phoneNumber">ENTER PHONE NO:</label></td>
         <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
       </tr>
       <tr>
