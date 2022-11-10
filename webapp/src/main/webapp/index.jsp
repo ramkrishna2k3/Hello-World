@@ -1,25 +1,25 @@
 <div class="container">
-  <h1>HTML registration form with varification</h1>
+  <h1>HTML registration form with verification</h1>
   <form name="New user Registration" class="registartion-form" onsubmit="return formValidation()">
     <table>
       <tr>
-        <td><label for="name">Enter Name:</label></td>
+        <td><label for="name">Ramakrishna Rachure:</label></td>
         <td><input type="text" name="name" id="name" placeholder="your name"></td>
       </tr>
       <tr>
-        <td><label for="email">Enter Email address:</label></td>
+        <td><label for="email">ramkrishna2k3@gmail.com:</label></td>
         <td><input type="text" name="email" id="email" placeholder="your email"></td>
       </tr>
       <tr>
-        <td><label for="enter password">Enter Password:</label></td>
+        <td><label for="enter password">abc:</label></td>
         <td><input type="password" name="password" id="password"></td>
       </tr>
       <tr>
-        <td><label for="phoneNumber">Phone Number:</label></td>
+        <td><label for="phoneNumber">9658745241:</label></td>
         <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
       </tr>
       <tr>
-        <td><label for="gender">male:</label></td>
+        <td><label for="gender">Gender:</label></td>
         <td>Male: <input type="radio" name="gender" value="male">
           Female: <input type="radio" name="gender" value="female">
           Other: <input type="radio" name="gender" value="other"></td>
