@@ -19,7 +19,7 @@
         <td><input type="number" name="phoneNumber" id="phoneNumber"></td>
       </tr>
       <tr>
-        <td><label for="gender">Gender:</label></td>
+        <td><label for="gender">male:</label></td>
         <td>Male: <input type="radio" name="gender" value="male">
           Female: <input type="radio" name="gender" value="female">
           Other: <input type="radio" name="gender" value="other"></td>
